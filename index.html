@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+    body {
+      margin: 0px;
+      font-family: "Poppins", Arial;
+      background-color: #fff;
+      }
+    
+      li {
+        list-style: none;
+      }
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+      }
+
+    h4 {
+    font-size: 25px;
+      }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #262525;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+      display: flex;
+      position: fixed;
+      z-index: 11;
+      width: 100%;
+      text-decoration: none;
+      align-items: center;
+     }
+
+    .topnav a {
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 6px;
+      }
+
+    .topnav a:hover {
+      background-color: #a80000;
+      color: rgb(255, 255, 255);
+      }
+
+    .topnav a.active {
+      background-color: #a80000;
+      color: rgb(255, 255, 255);
+     }
+
+    .topnav input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-right: 5%;
+      margin-left: 70px;
+      font-size: 6px;
+      }
+
+    .container {
+      position: relative;
+      align-items: center;
+      }
+
+    .gallery {
+      align-content: center;
+      }
+
+    .mySlides {
+      display: none;
+      align-items: center;
+      margin-left: 35%;
+      margin-right: 70%;
+      display: block;
+        margin: auto;
+      align-self: center;
+      text-align: center;
+      }
+
+    .cursor {
+      cursor: pointer;
+     }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+     }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+     }
+
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+     }
+
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      margin-bottom: 30px;
+      margin-left: 47%;
+      align-self: center;
+      text-align: center;
+      }
+
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+      }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+
+    .column {
+      float: left;
+      width: 16.66%;
+      }
+
+    .demo {
+      opacity: 0.6;
+      }
+
+    .active, .demo:hover {
+      opacity: 1;
+      }
+
+  </style>
+
+<title>MS-06S Zaku II</title>
+</head>
+<body style="margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;">
+<div>
+  <div class="topnav">
+    <a style="padding-left: 5%; padding-right: 5%;" class="active" href="#home"> MS-06S ZAKU II</a>
+    <a style=" color: white;" href="#about">ABOUT</a>
+    <a style=" color: white;" href="#grades">GRADES</a>
+    <a style=" color: white;" href="#bodyparts">PARTS</a>
+    <a style=" color: white;" href="#gallery">GALLERY</a>
+    <input style="  padding-right: 5%px; width: 15%; " type="text" placeholder="Search..">
+  </div>
+<div style="width: 100%; background-image:  linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('https://images.pling.com/img/00/00/64/27/60/1678633/space-war-universe-photography-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg'); background-size: cover;
+  background-repeat: no-repeat; background-position: center; text-align: center; position: relative;">
+    <img src="https://drive.google.com/uc?export=download&id=1ZDkndVDpHdKE6v47SzlPb5b4DXV6n3Lv" style="position: absolute; align-self: center; top: 0; left: 0; width: 100%; height: auto; padding-top: 2%; padding-bottom: 50%; z-index: 1;">
+    <h1 style=" width: 100%; position: absolute; z-index: 8; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); font-size: 15px; margin-top: 50px;"><span style="color: rgb(255, 255, 255)">-The blazing </span> <span style="color: rgb(255, 72, 0);">Red Comet </span> <span style="color: rgb(255, 255, 255);"> for the Glory of the Principality of Zeon-</span></h1>
+    <div>
+      <img style="text-align: center; position: relative; width: 60%; height: auto; margin-right: 40px; margin-top: 55px; z-index: 9;" src="https://drive.google.com/uc?export=view&id=1INixsCN-Nt3AxrKohuAdOgSRQgHSrl-j"  alt="">
+    </div>
+<div>
+  <table style="width:100%;margin-right: auto; margin-left: auto; margin-top: -50px;">
+    <tr>
+      <td style="text-align: left; padding-left: 10%;  " align="leftt" >
+        <h3 style="margin-bottom: -23px;" ><span style="text-align: left; color: rgb(255, 255, 255); font-size: 15px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">MS-06S Zaku II</span></h3> 
+        <h3>
+          <span style="padding-right: 10%; background: linear-gradient(to top, rgb(236, 75, 0), rgb(245, 16, 16)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;color: #e2201a;  font-size: 25px; ">Char Aznable's ZAKU II
+        </span>
+        </h3>
+      </td>
+      <td  style="padding-left: 1px;">
+        <img style=" margin-bottom: -18px; height: auto; width: 50px; padding-right: 10%; " src="https://drive.google.com/uc?export=download&id=1S6JNwhWtel7vpljINrQCW_83kiq5Y2Xo" alt="">
+      </td>
+    </tr>
+  </table>
+</div>
+</div>
+<div  id="about" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('https://drive.google.com/uc?export=download&id=1RIskOlC4np4TaFVXMH1gUT02iWCgNNqA'); margin-bottom: 200px; width: 100%;">
+  <h2 style="background: linear-gradient(to top, rgb(236, 75, 0), rgb(245, 16, 16)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;color: #e2201a; font-size: 20px; text-align: center; padding-top: 50px; padding-bottom: 10px; font-weight: large;">ABOUT</h2>
+  <table  style=" width:100%; margin-top: -10px; text-align: center; margin-left: auto; margin-right: auto;">
+    <tr>
+      <td>
+        <img style=" height: auto; width: 200px;" src="https://drive.google.com/uc?export=download&id=1mq14OscFQdwDgbOawG2ZmbzYuPUNELaG" alt="">
+      </td>
+      <td style="padding-left: 50px; padding-right: 50px; padding-top: -100px;">
+        <h2 style="text-align: left; color: rgb(255, 255, 255); font-size: 15px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">MS-06S Char's Zaku II</h2>
+        <p style=" text-align: justify; color: rgb(255, 255, 255); font-size: 12px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); height: 220px; width: auto;">This <a href="https://en.wikipedia.org/wiki/Gundam_model" style="color: rgb(253, 78, 78);">Gundam Plastic Model</a>  is the iconic MS-06S Char's Zaku II, a mobile suit featured in the Mobile Suit Gundam: The Origin manga and its OVA adaptation. It was piloted by <a href="https://gundam.fandom.com/wiki/Char_Aznable" style="color: rgb(253, 78, 78);"> Char Aznable</a> during the One Year War who is the rival of <a href="https://gundam.fandom.com/wiki/Amuro_Ray" style="color: rgb(253, 78, 78);">Amuro</a>, who piloted the popular <a href="https://gundam.fandom.com/wiki/RX-78-02_Gundam" style="color: rgb(253, 78, 78);">RX-78-02 Gundam</a>.</p>   
+      </td>
+    </tr>
+  </table>
+</div>
+<div style="margin-top: -100px; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('https://drive.google.com/uc?export=download&id=1RIskOlC4np4TaFVXMH1gUT02iWCgNNqA');">
+  <iframe width="75%" height="250px" src="https://www.youtube.com/embed/s8KymnGt7vM" title="YouTube video player" style="border: 2px solid rgb(179, 0, 0);" frameborder-color="red" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div id="grades">
+  <h2 style="background: linear-gradient(to top, rgb(236, 67, 0), rgb(245, 16, 16)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;color: #e2201a; font-size: 20px; text-align: center; padding-top: 70px; font-weight: large;">GRADES</h2>
+  <table style="text-align: center; margin-left: auto; margin-right: auto;">
+  <tr style="text-align: center;">
+  <td style="width: 25%; color: white; ">
+    <!-- First column content -->
+    <img style="height: 20px;" src="https://drive.google.com/uc?export=download&id=14o_vQuqb2tUWU6FxU_-zJNMLtb5c0-UM" alt="">
+    <p>HIGH GRADE 1/144</p>
+  </td>
+  <td style="width: 25%; color: white; ">
+    <!-- Second column content -->
+    <img style="height: 20px;" src="https://drive.google.com/uc?export=download&id=1LIB7Yef5R7-uwFphI08dzGk6fuYe3axG" alt="">
+    <p>REAL GRADE 1/144</p>
+  </td>
+  <td style="width: 25%; color: white; ">
+    <!-- Third column content -->
+    <img style="height: 20px;" src="https://drive.google.com/uc?export=download&id=1U5MW4HdesbWCOvIO81aIWG9N3Ghkoh4Q" alt="">
+    <p>MASTER GRADE 1/100</p>
+  </td>
+  <td style="width: 25%; color: white; ">
+    <!-- Fourth column content -->
+    <img style="height: 20px;" src="https://drive.google.com/uc?export=download&id=1F1bLe2PHvaMkbInS17e0YMarFkW3NrWz" alt="">
+    <p>PERFECT GRADE 1/60</p>
+  </td>
+  </tr>
+  <tr style="text-align: center;">
+    <td style="width: 25%; border: 10px solid rgb(0, 0, 0); border: 3px solid rgb(177, 0, 0); ">
+      <img style="width: 200px; height: auto;" src="https://drive.google.com/uc?export=view&id=1y1i231JpwBu86pev4wTf9OybvRQmN57Y" alt="">
+    </td>
+    <td style="width: 25%; border: 10px solid rgb(0, 0, 0); border: 3px solid rgb(177, 0, 0); ">
+      <img style="width: 200px; height: auto;" src="https://drive.google.com/uc?export=view&id=1gBwDs02YkRV2MR2kUS-aDwMjdFIh5WeY" alt="">
+    </td>
+    <td style="width: 25%; border: 10px solid rgb(0, 0, 0); border: 3px solid rgb(177, 0, 0); ">
+      <img style="width: 200px; height: auto;" src="https://drive.google.com/uc?export=view&id=1EC2Z12YSs6sFUcp79kXuWB87HTLkFAUu" alt="">
+    </td>
+    <td style="width: 25%; border: 10px solid rgb(0, 0, 0); border: 3px solid rgb(177, 0, 0);">
+      <img style="width: 200px; height: auto;" src="https://drive.google.com/uc?export=download&id=1mkq4kNihE2k-hnfBK4XGkebXiCHEBT1_" alt="">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img style="width: 90%; height: auto; padding-top: 80px;" src="https://drive.google.com/uc?export=download&id=1FsOyk7RQgW9jVC_KMlkW3fa6dqkQUKjS" alt="">
+    </td>
+    <td>
+      <img style="width: 90%; height: auto; padding-top: 80px;" src="https://drive.google.com/uc?export=download&id=1IcQQ39fVy9EbS4yESh5WtIL3JKe5ht1G" alt="">
+    </td>
+    <td>
+      <img style="width: 90%; height: auto; padding-top: 80px;" src="https://drive.google.com/uc?export=download&id=15fcct5KUsnWpdMa79y_zoAlHBzf96e-8" alt="">
+    </td>
+    <td>
+      <img style="width: 90%; height: auto; padding-top: 80px;" src="https://drive.google.com/uc?export=download&id=1ef5lOph_oOgqqInoJC54ZuDkY_2rKkKN" alt="">
+    </td>
+  </tr>
+  <tr>
+    <td style=" text-align: left; color: white;  font-size: 12px; padding-top: 50px;">
+      Easy to build and uses many stickers. Has limited detail.
+      <p>Scale: 1/144</p>
+      <p>Model Height: 12.5 cm (5 in)</p>
+    </td>
+    <td style="text-align: left; color: white; font-size: 12px; padding-top: 50px;">
+     More details than HG and has more pieces.
+      <p>Scale: 1/144</p>
+      <p>Model Height: 12.5 cm (5 in)</p>
+    </td>
+    <td style="text-align: left; color: white; font-size: 12px; padding-top: 50px;">
+      Fewer sticker sheets, more detail and pieces.
+      <p>Scale: 1/100</p>
+      <p>Model Height: 18 cm (7 in)</p>
+    </td>
+    <td style=" text-align: left; color: white; font-size: 12px; padding-top: 50px;">
+      Lots of pieces, very detailed. Not released as often as other grades. Hard to build and takes time.
+      <p>Scale: 1/60</p>
+      <p>Model Height: 30 cm (11.8 in)</p>
+    </td>
+  </tr>
+  </table>
+</div>
+<div id="bodyparts" style=" text-align:center; background-repeat: no-repeat; color: #fff; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('https://drive.google.com/uc?export=download&id=1YKTBPbFPwUPdzggfYBvjaG5x_nGQMZqd');">
+  <h2 style="background: linear-gradient(to top, rgb(236, 75, 0), rgb(245, 16, 16)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;color: #e2201a; font-size: 20px; text-align: center; padding-top: 100px; padding-bottom: 100px; font-weight: large;">BODY PARTS</h2>
+  <img class="bodyparts" style="display: block; margin: auto; width: 70%;" src="https://drive.google.com/uc?export=download&id=1Wd1gBJ0B1um0cNBBCKfGj5j2YOqsQ7Ek" alt="">
+</div>
+<div style="margin-top: 150px;">
+  <h3 style="text-align: center; align-self: center; color: white; padding-bottom: 30px;">MATERIALS</h3>
+  <table style="text-align: center; margin-left: auto; margin-right: auto;">
+    <tr>
+      <td>
+        <img style="width: 70px;" src="https://drive.google.com/uc?export=download&id=1zG-Cov2d2RkyHBUquGE3iGDfiAXjQr17" alt="">
+      </td>
+      <td>
+        <p style="color: white; text-align: left; padding-left: 12px;">Acrylic (Polyethylene Terephthalate)</p>
+      </td>
+        </tr>
+        <tr>
+          <td>
+            <img style="width: 70px;" src="https://drive.google.com/uc?export=download&id=1ty8wAlGQdl4I6UEri8PilY3dHKSrmeZP" alt="">
+          </td>
+          <td>
+            <p style="color: white; text-align: left; padding-left: 12px;">Polystyrene</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img style="width: 70px;" src="https://drive.google.com/uc?export=download&id=1DJm8DvLyxzMffPn5qA0-yLvxqeUs1uAR" alt="">
+          </td>
+          <td>
+            <p style="color: white; text-align: left; padding-left: 12px;">Acrylonitrile Butadiene Styrene</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img style="width: 70px;" src="https://drive.google.com/uc?export=download&id=1A5B6UKd9VKFbb8s6geO8IBF58_yE3LPH" alt="">
+          </td>
+          <td>
+            <p style="color: white; text-align: left; padding-left: 12px;">Die-Cast Metal</p>
+          </td>
+        </tr>
+  </table>
+</div>
+<div style="text-align: center; margin-top: 120px; margin-bottom: 100px;">
+  <img style="width: 60%; height: auto; " src="https://drive.google.com/uc?export=download&id=1Zal9-BTDElAvRwIKrtfCmqGOAjDDlFxV" alt="">
+</div>
+<div>
+  <audio autoplay loop>
+    <source src="https://drive.google.com/uc?export=download&id=1pd3avq-IHQHGzGpW5aKnhhad87h-NBUH" type="audio/mpeg">
+
+  </audio>
+</div>
+<div>
+  <h2 style="background: linear-gradient(to top, rgb(236, 75, 0), rgb(245, 16, 16)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;color: #e2201a; font-size: 20px; text-align: center; padding-top: 80px; padding-bottom: 10px; font-weight: large;">GALLERY</h2>
+</div>
+<div id="gallery" class="container" >
+  <div class="mySlides style=">
+    <div class="numbertext">1 / 6</div>
+      <img src="https://drive.google.com/uc?export=download&id=1URiMWYTQJbHJthEQQbwFBNZnywSBAoDv">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="https://drive.google.com/uc?export=download&id=1gBwDs02YkRV2MR2kUS-aDwMjdFIh5WeY">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="https://drive.google.com/uc?export=download&id=1ySbdm0afE278rgXWK2StH6890Uv9CTG6">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="https://drive.google.com/uc?export=download&id=19YnxpKQ6mbaN4k5Kl7moQPuckcmEkfwL">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="https://drive.google.com/uc?export=download&id=1J9LEzT2Z2FeD1d_3THn5_3BMTgrfOs3w">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img style="padding-top: 5%;" src="https://drive.google.com/uc?export=download&id=1B9VeVTNardSIyCiNIlqW5vypFiAWdr9p">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://drive.google.com/uc?export=download&id=1URiMWYTQJbHJthEQQbwFBNZnywSBAoDv" style="width:100%" onclick="currentSlide(1)" alt="MG 1/100 MS-06S ZAKU II">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://drive.google.com/uc?export=download&id=1gBwDs02YkRV2MR2kUS-aDwMjdFIh5WeY" style="width:100%" onclick="currentSlide(2)" alt="RG 1/144 MS-06S ZAKU II">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://drive.google.com/uc?export=download&id=1ySbdm0afE278rgXWK2StH6890Uv9CTG6" style="width:100%" onclick="currentSlide(3)" alt="CUSTOM METALLIC PG 1/60 MS-06S ZAKU II">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://drive.google.com/uc?export=download&id=19YnxpKQ6mbaN4k5Kl7moQPuckcmEkfwL" style="width:100%" onclick="currentSlide(4)" alt="METALLIC MG 1/100 MS-06S ZAKU II">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://drive.google.com/uc?export=download&id=1J9LEzT2Z2FeD1d_3THn5_3BMTgrfOs3w" style="width:100%; padding-top: 15%;" onclick="currentSlide(5)" alt="MG 1/100 MS-06S ZAKU II">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://drive.google.com/uc?export=download&id=1B9VeVTNardSIyCiNIlqW5vypFiAWdr9p" style="width:100%; padding-top: 20%;" onclick="currentSlide(6)" alt="METALLIC PG 1/60 MS-06S ZAKU II">
+    </div>
+  </div>
+  <div>
+    <footer style="background-color: #262525; height: 90px;">
+      <h5 style="color: white; text-align: center; font-family: Arial, Helvetica, sans-serif; padding-top: 40px; font-size: 15px;">David Carl Narito  │ BSIT 4-1 </h5>
+    </footer>
+  </div>
+</div>
+</div>
+
+<script>
+
+  let slideIndex = 1;
+    showSlides(slideIndex);
+  
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+
+</script>
+
+</body>
+</html>
+
